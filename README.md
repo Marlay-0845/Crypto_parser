@@ -1,7 +1,3 @@
-Sure! Here is a clean, professional **README.md in English** for your project:
-
----
-
 # Crypto Price Monitor (Async • SQLite • Logging)
 
 This project is an asynchronous cryptocurrency price monitor built with **CoinGecko API**, **aiohttp**, **SQLite**, and **Python logging**.
