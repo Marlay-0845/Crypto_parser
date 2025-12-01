@@ -2,7 +2,7 @@ Sure! Here is a clean, professional **README.md in English** for your project:
 
 ---
 
-# 📈 Crypto Price Monitor (Async • SQLite • Logging)
+# Crypto Price Monitor (Async • SQLite • Logging)
 
 This project is an asynchronous cryptocurrency price monitor built with **CoinGecko API**, **aiohttp**, **SQLite**, and **Python logging**.
 It allows you to:
@@ -14,20 +14,20 @@ It allows you to:
 
 ---
 
-## 🚀 Features
+## Features
 
-### ✅ Real-time coin price fetching
+### Real-time coin price fetching
 
 The program fetches the USD price of any coin using the CoinGecko API.
 
-### 🔁 Automatic repeated requests
+### Automatic repeated requests
 
 You can specify:
 
 * how many times to fetch the price
 * how many seconds to wait between each request
 
-### 💾 SQLite database
+### SQLite database
 
 All fetched prices are stored in:
 
@@ -40,7 +40,7 @@ You can:
 * view the full history
 * delete all entries
 
-### 🗂 Logging
+### Logging
 
 All events are logged to:
 
@@ -50,7 +50,7 @@ crypto_parser/logs/app.log
 
 ---
 
-# 📦 Project Structure
+# Project Structure
 
 ```
 project/
@@ -70,7 +70,7 @@ project/
 
 ---
 
-# ⚙️ Installation & Running
+# Installation & Running
 
 ### 1. Install dependencies
 
@@ -138,7 +138,7 @@ Closes the program.
 
 ---
 
-# 🧠 Technologies Used
+# Technologies Used
 
 | Technology  | Purpose                          |
 | ----------- | -------------------------------- |
@@ -150,7 +150,7 @@ Closes the program.
 
 ---
 
-# 📜 Example Log Output
+# Example Log Output
 
 ```
 2025-05-19 14:22:11 - converter_logger - INFO - Coin: bitcoin | Price: 67321.52
@@ -159,7 +159,7 @@ Closes the program.
 
 ---
 
-# 🛠 Possible Improvements
+# Possible Improvements
 
 * reuse a single `aiohttp.ClientSession` across requests
 * move menu UI into a separate module
