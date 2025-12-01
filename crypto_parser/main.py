@@ -1,9 +1,9 @@
 import asyncio
 import aiohttp
 
-from example_aiohttp.crypto_parser.config import *
-from example_aiohttp.crypto_parser.logger_setup import setup_logger
-import example_aiohttp.crypto_parser.storage as db
+from crypto_parser.config import *
+from crypto_parser.logger_setup import setup_logger
+import crypto_parser.storage as db
 
 
 logger = setup_logger()
@@ -94,4 +94,5 @@ async def main():
 
 
 asyncio.run(main())
+
 
